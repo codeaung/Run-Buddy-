@@ -1,54 +1,72 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
 <head>
-
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, 
    initial-scale=1.0">
    <title>Run Buddy</title>
-   <link rel="stylesheet" href="./style.css">
-</head>
+   <link rel="stylesheet" href="./assets/css/style.css"> 
 
+</head>
 <body>
  <!-- navigation -->
 <header>
-<h1>RUN BUDDY</h1>
-
+<h1>RUN BUDDY<h1>
  <nav>
    <!--Unorder list element-->
    <ul>
-<!--List Item Element -->
+<!--List item Element -->
 <li>
    <!-- Anchor Element-->
    <a href="#what-We-Do">What We Do</a>
 </li>
 <li>
-<!--List Item Element -->
    <a href="What-You-Do">What You Do</a>
-</li>
+</li> 
 <!--List Item Element -->
 <li>
  <a href="#Meet-the-Trainers">Meet the Trainers</a>
 </li>
-<!--List Item Element -->
 <li>
  <a href="#Reach-Out">Reach Out</a>
 </li>
+</ul>
+</nav>
+</header>
 
  <!-- hero/jumbotron -->
-</li>
-  <ul>
-   </ul><nav> 
-      <Header></Header>
-  </ul>
- <!-- hero/jumbotron -->
- 
- <section>
- 
- </section>
- 
+  <section class="hero">
+  <div class="hero-form">
+    <h3> Get started Today</h3>
+    <p> Fill out this form and one of our trainers will scheful a consult</p>
+  <!-- ADD Sign Up "CTA" form element-->
+  <form>
+    <label for="name">Enter full name</lable>
+    <input type= "text" placeholder="Your Name" name="name" id="name">
+  
+    <label for=" email"> Enter email <address> </address></label>
+    <input type= " text" placeholder="email adress" name="name" id="name">
+
+    </label for="tel"> Enter Telephone Number></lable>
+    <input type= " text" placeholder="Phone number " name="tel" id="tel">
+
+    <p>
+      have you worked out with a trainer before?
+      <input type="radio" nmae=" trainer-comfirm" id=" trainer yes" >
+       <label for= " trainer-yes">Yes</label>
+
+    <input type="radio" nmae=" trainer-comfirm" id=" trainer no">
+       <label for= " trainer-no">no</label>
+       </p>
+  <p>
+    <label for= " checkbox"> I acknowledge that I am at leat 18 years of age </label>
+  <input type="checkbox" name= "checkpoint" id="checkbox"/>
+  </p>
+  <button type="submit"> Get Running</button>
+  </form>
+</div> 
+  </section>
  
  <!-- "what we do" section -->
  
@@ -66,8 +84,7 @@
    <h2>What You Do</h2>
  
  </section>
- 
- 
+
  <!-- "meet the trainers" section -->
  
  <section>
@@ -91,9 +108,10 @@
  <footer>
  
    <h2>Made with ❤️ love by Run Buddy.</h2>
- 
+   <div>
+    <a href="#"> Read Our Privacy Policy</a><br>
+    &copy; 2024 Run Buddy,Inc.
+   </div>
  </footer>
-
 </body>
-
 </html>
