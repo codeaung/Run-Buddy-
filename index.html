@@ -11,28 +11,31 @@
 </head>
 <body>
  <!-- navigation -->
-<header>
-<h1>RUN BUDDY<h1>
- <nav>
-   <!--Unorder list element-->
-   <ul>
-<!--List item Element -->
-<li>
-   <!-- Anchor Element-->
-   <a href="#what-We-Do">What We Do</a>
-</li>
-<li>
-   <a href="What-You-Do">What You Do</a>
-</li> 
-<!--List Item Element -->
-<li>
- <a href="#Meet-the-Trainers">Meet the Trainers</a>
-</li>
-<li>
- <a href="#Reach-Out">Reach Out</a>
-</li>
-</ul>
-</nav>
+ <header>
+  <h1>
+      <a href="/">
+          RUN BUDDY
+      </a>
+  </h1>
+  <nav>
+      <!-- unordered list element -->
+      <ul>
+          <!-- list item element -->
+          <li>
+              <!-- anchor element -->
+              <a href="#what-we-do">What We Do</a>
+          </li>
+          <li>
+              <a href="#what-you-do">What You Do</a>
+          </li>
+          <li>
+              <a href="#your-trainers">Your Trainers</a>
+          </li>
+          <li>
+              <a href="#reach-out">Reach Out</a>
+          </li>
+      </ul>
+  </nav>
 </header>
 
  <!-- hero/jumbotron -->
@@ -43,45 +46,79 @@
   <!-- ADD Sign Up "CTA" form element-->
   <form>
     <label for="name">Enter full name</lable>
-    <input type= "text" placeholder="Your Name" name="name" id="name">
+    <input type= "text" placeholder="Enter Your Name" name="name" id="name" class="form-input">
   
     <label for=" email"> Enter email <address> </address></label>
-    <input type= " text" placeholder="email adress" name="name" id="name">
+    <input type= " text" placeholder="Enter Email Adress" name="name" id="name" class="form-input">
 
     </label for="tel"> Enter Telephone Number></lable>
-    <input type= " text" placeholder="Phone number " name="tel" id="tel">
+    <input type= " text" placeholder="Enter a Phone Number " name="tel" id="tel" class="form-input"> 
 
     <p>
       have you worked out with a trainer before?
-      <input type="radio" nmae=" trainer-comfirm" id=" trainer yes" >
+      <input type="radio" nmae=" trainer-comfirm" id=" trainer-yes" >
        <label for= " trainer-yes">Yes</label>
 
-    <input type="radio" nmae=" trainer-comfirm" id=" trainer no">
+    <input type="radio" nmae=" trainer-comfirm" id=" trainer-no">
        <label for= " trainer-no">no</label>
        </p>
   <p>
     <label for= " checkbox"> I acknowledge that I am at leat 18 years of age </label>
   <input type="checkbox" name= "checkpoint" id="checkbox"/>
   </p>
-  <button type="submit"> Get Running</button>
+  <button type="submit">Get Running!</button> 
   </form>
 </div> 
   </section>
  
  <!-- "what we do" section -->
- 
- <section>
- 
-   <h2>What We Do</h2>
- 
- </section>
+ <section id="what-we-do" class="intro">
+  <h2 class="section-title primary-border">What We Do</h2> 
+   <p>
+    butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave 
+    you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes 
+    Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
+  </p>
+ </section> 
  
  
  <!-- "what you do" section -->
- 
- <section>
- 
-   <h2>What You Do</h2>
+ <section id="what-you-do" class="steps">
+   <h2> class="section-title secondary-border" What You Do</h2>
+   <div> 
+    <img src="./assets/images/step-1.svg" alt="steps-1 image">
+    <h3>Step 1: Fill Out the Form Above.</h3>
+
+    <p>You're already here, so why not?</p>
+
+  </div>
+
+
+  <div>
+    <img src="./assets/images/step-2.svg" alt="step-2 image">
+    <h3>Step 2: Consult with One of Our Trainers.</h3>
+
+    <p>Are you here to build muscle, lose weight, or just feel good?</p>
+
+  </div>
+
+
+  <div>
+    <img src="./assets/images/step-3.svg" alt="step-3 image">
+    <h3>Step 3: Get Running.</h3>
+
+    <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+
+  </div>
+
+
+  <div>
+    <img src="./assets/images/step-4.svg" alt="step-4 image">
+    <h3>Step 4: See Results.</h3>
+
+    <p>Bi-weekly checkins with your trainer will keep you focused</p>
+
+  </div>
  
  </section>
 
